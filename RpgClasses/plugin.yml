@@ -1,0 +1,20 @@
+name: RpgClasses
+main: com.vartala.soulofw0lf.rpgclasses.RpgClasses
+version: 1.0
+depend: [RPGAPI]
+commands:
+    firework:
+        description: Firework Test Command
+        usage: /<firework>
+    addxp:
+        description: add experience to a player
+        usage: /<addxp> <playername> <ammount>
+    tutskip:
+        description: skip the tutorial
+    class:
+        description: the class select command
+        usage: /class select
+    equip:
+        description: equip weapons and armor
+        usage: /equip
+        aliases: [e]
